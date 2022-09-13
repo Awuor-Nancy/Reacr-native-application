@@ -41,7 +41,7 @@ const App = ({navigation}) => {
     setDescription(json.username);
     fetchData();
   }, []);
-​
+
   const searchFunction = (text) => {
     const updatedData = item.filter((item) => {
       return updatedData;
@@ -70,16 +70,13 @@ return (
         {item.username}
         {item.thumbnail}
 
-        </Text>
-        
+        </Text>       
         }
-​
      />
      <Text>I am learning</Text>
      <Text>{username}</Text>
   </View>
-)
-}
+)}
 export default App;
 ​
 const styles = StyleSheet.create({
